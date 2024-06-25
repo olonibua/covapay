@@ -42,9 +42,10 @@ const Features = () => {
               <h2 className="font-[600] text-[14px] sm:text-[16px]">
                 Bank Transfer
               </h2>
-              <p className=" text-[12px] sm:text-[14px]">
-                Customers can make payments to the small business's bank account
-                using their own bank's mobile app or internet banking platform.
+              <p className="text-[12px] sm:text-[14px]">
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
+                Customers can make payments to the small business bank account
+                using their own bank mobile app or internet banking platform.
               </p>
             </div>
             <div>
@@ -52,8 +53,8 @@ const Features = () => {
                 Bank Transfer
               </h2>
               <p className=" text-[12px] sm:text-[14px]">
-                Customers can make payments to the small business's bank account
-                using their own bank's mobile app or internet banking platform.
+                Customers can make payments to the small business bank account
+                using their own bank mobile app or internet banking platform.
               </p>
             </div>
             <div>
@@ -61,8 +62,8 @@ const Features = () => {
                 Bank Transfer
               </h2>
               <p className=" text-[12px] sm:text-[14px]">
-                Customers can make payments to the small business's bank account
-                using their own bank's mobile app or internet banking platform.
+                Customers can make payments to the small business bank account
+                using their own bank mobile app or internet banking platform.
               </p>
             </div>
           </div>
@@ -83,8 +84,8 @@ const Features = () => {
 
               <div className="mt-5 md:mt-16 lg:mt-36 xl:mt-64">
                 <p className="text-[8px] sm:text-[0.7rem] md:text-[0.7rem] lg:text-[1rem] xl:text-[1.5rem] text-left">
-                  Effortlessly track and manage your expenses with Covapay's
-                  user-friendly expense tracking system. Use Covapay's reporting
+                  Effortlessly track and manage your expenses with Covapay
+                  user-friendly expense tracking system. Use Covapay reporting
                   tools to gain valuable insights and drive growth
                 </p>
               </div>
@@ -115,7 +116,7 @@ const Features = () => {
 
                 <div className="mt-10 md:mt-40 xl:mt-[400px]">
                   <p className=" text-[9px] sm:text-[0.7rem] md:text-[0.7rem] lg:text-[1rem] xl: text-left  ">
-                    Harness the power of Covapay's reporting tools. Generate
+                    Harness the power of Covapay reporting tools. Generate
                     detailed reports that reveal trends, opportunities, and
                     areas for improvement. Use these insights to fuel your
                     business expansion

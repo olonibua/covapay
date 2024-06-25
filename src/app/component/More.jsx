@@ -49,6 +49,7 @@ const More = () => {
 
       <div className="flex justify-between mt-10 lg:mt-20  mb-5 lg:mb-20">
         <h2 className="text-[20px] lg:text-[60px] font-[600] sm:leading-[65px] text-left max-w-[50%]">
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           Modern SME's run on Covapay
         </h2>
         <h3 className="text-[11px] lg:text-[20px] p-2 sm:p-10 text-[#979ea8] max-w-[35%] tracking-[-0.08rem] sm:tracking-[-0.09rem]">
