@@ -44,6 +44,7 @@ export const OurContact = () => {
                 Everything you need to know
               </h2>
               <h3 className="mt-1 sm:mt-8  sm:text-[12px] xl:mt-28 text-[8px] lg:text-[13px] xl:text-[20px] max-w-[40%]">
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 We answered questions so you don't have to ask them
               </h3>
             </div>
