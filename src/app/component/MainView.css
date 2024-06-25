@@ -1,6 +1,6 @@
 /* styles.css */
 .hide-scrollbar {
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 100vh;
 }
 

@@ -26,10 +26,10 @@ const MainView = () => {
         duration: 2.5, // Duration set to 2.5 seconds
         zIndex: 50,
       },
-      // onComplete: () => {
-      //   // Enable scrolling after the animation is complete
-      //   document.body.classList.remove("no-scroll");
-      // },
+      onComplete: () => {
+        // Enable scrolling after the animation is complete
+        document.body.classList.remove("hide-scrollbar");
+      },
     });
 
     // Initial visibility settings
@@ -106,7 +106,7 @@ const MainView = () => {
   }, []);
 
   return (
-    <div className="relative content-wrapper max-w-[400px] mx-auto sm:max-w-full">
+    <div className="relative content-wrapper max-w-[400px] hidden md:block mx-auto sm:max-w-full overflow-hidden">
       <section className="flex absolute top-0 right-0 left-0 menu-section  pr-5 pl-5 sm:pl-[74px] sm:pr-[74px] justify-between h-24 sm:h-36 items-center z-10">
         <Image
           src={covalogo}
