@@ -1,0 +1,27 @@
+/* styles.css */
+.hide-scrollbar {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.hide-scrollbar .content-wrapper {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.hide-scrollbar .content-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar .content-wrapper {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+@media (max-width: 768px) {
+  #heroImage {
+    height: 90vh;
+  }
+  .heroimage {
+    height: 90vh;
+  }
+}
